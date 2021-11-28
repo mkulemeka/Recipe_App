@@ -1,0 +1,21 @@
+<div class="container-fluid">
+    <div class="container-fluid">
+        <div class="container-fluid marg">
+            <button class='btn border border-success mt-3' type="button">{{#link-to 'recipes.new'}}Add a Recipe{{/link-to}}</button>
+            <hr>
+            {{outlet}}
+        </div>
+        <div class="recipe_cards container-fluid marg">
+            {{#each @model as |recipe|}}
+                <div class="card shadow-sm" style="width: 18rem;">
+                    <img class="card-img-top" src={{recipe.image}} alt="{{recipe.title}}">
+                    <div class="card-body">
+                        <h5 class="card-title">{{recipe.title}}</h5>
+                        <p class="card-text">{{recipe.description}}</p>
+                        <p class="card-text">{{recipe.created}}</p>
+                    </div>
+                </div>
+            {{/each}}
+        </div>
+    </div>
+</div>

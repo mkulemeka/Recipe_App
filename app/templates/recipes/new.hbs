@@ -1,0 +1,14 @@
+<form>
+    <p>
+        {{input class='form-control' type='text' value=this.recipeTitle placeholder='Recipe Title'}}
+    </p>
+    <p>
+        {{textarea class='form-control' value=recipeDescription placeholder='Description'}}
+    </p>
+    <p>
+        {{input class='form-control' type='text' value=recipeImage placeholder='Image URL'}}
+    </p>
+    <p>
+        <button {{action 'addRecipe'}} class='btn btn-success'>Submit</button>
+    </p>
+</form>

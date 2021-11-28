@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Roboto:ital,wght@0,300;0,400;1,300&family=Space+Mono&display=swap');
+
+:root{
+    --shadow-box:
+    0px 0px 2.8px rgba(0, 0, 0, 0.063),
+    0px 0px 7.8px rgba(0, 0, 0, 0.09),
+    0px 0px 18.7px rgba(0, 0, 0, 0.117),
+    0px 0px 62px rgba(0, 0, 0, 0.18)
+  ;
+  --primary-color: rgb(117, 216, 104);
+  --white-color: hsl(0, 100%, 100%); 
+  --faded-black: rgb(103,105,101);
+  --component-raidus-1: 0.3125rem;
+  --component-raidus-2: 0.625rem;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto','Inter', 'Space Mono', monospace, sans-serif;
+    line-height: 1.5;
+    background: #f3f3f3;
+}
+
+.navbar .collapse {
+    justify-content: flex-end;
+}
+
+.navbar .navbar-brand {
+    border: 1px solid var(--primary-color);
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    border-radius: var(--component-raidus-1);
+}
+
+.navbar .nav-link:nth-child(2) {
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 5px;
+}
+
+.recipe_cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.card {
+    transition: 300ms ease-in-out;
+}
+
+.card:hover {
+    border: 1px solid var(--primary-color);
+    box-shadow: 0 1rem 3rem rgba(black, .175);
+    padding: .5rem;
+}
+
+.marg {
+    padding-left: 0;
+    padding-right: 0;
+}

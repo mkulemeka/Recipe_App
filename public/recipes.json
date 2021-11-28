@@ -1,0 +1,27 @@
+{
+    "Recipes": 
+    [
+        {
+            "id": 1,
+            "title": "Hamburger Buns",
+            "description": "Delicious hamburger buns! Homemade and fresh! Easy to make and economical, these buns will make your dinner guests feel extra special. ",
+            "image": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F8281059.jpg&q=85",
+            "link": "https://www.allrecipes.com/recipe/76739/hamburger-buns/"
+        },
+        {
+            "id": 2,
+            "title": "Classic, Hearty Beef Stew",
+            "description": "This classic beef stew recipe makes sure you really make the most of each step of the cooking process to end up with a beautiful, rich, and hearty beef stew! ",
+            "image": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F8650757.jpg&q=85",
+            "link": "https://www.allrecipes.com/recipe/281995/classic-hearty-beef-stew/"
+        },
+        {
+            "id": 3,
+            "title": "Spaghetti Squash Lasagna",
+            "description": "This spaghetti squash lasagna is yummy, good for you, and filling!",
+            "image": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F9413507.jpg&q=85",
+            "link": "https://www.allrecipes.com/recipe/277699/best-spaghetti-squash-lasagna/"
+        }
+    ]
+
+}
