@@ -72,7 +72,55 @@ body{
     padding: .5rem;
 }
 
+.contact{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+._contact {
+    max-width: 30rem;
+    
+}
+
+.image-container {
+    border-radius: .6rem;
+}
+
+._contact img {
+    width: 100%;
+    height: auto;
+    border-radius: .6rem;
+}
+
 .marg {
     padding-left: 0;
     padding-right: 0;
+}
+
+.about_logo {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .recipe_cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .card-img-top {
+        width: 100%;
+        height: auto;
+    }
 }
