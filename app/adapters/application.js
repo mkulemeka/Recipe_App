@@ -6,7 +6,3 @@ export default DS.RESTAdapter.extend({
     return true;
   },
 });
-
-// import JSONAPIAdapter from '@ember-data/adapter/json-api';
-
-// export default class ApplicationAdapter extends JSONAPIAdapter {}

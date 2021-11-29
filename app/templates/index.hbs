@@ -7,8 +7,8 @@
     </div>
 
     <div class="recipe_cards container-fluid">
-        {{#each @model as |recipe|}}
-            <div class="card shadow-sm mb-5 bg-body" style="width: 18rem;">
+        {{#each model as |recipe|}}
+            <div class="card shadow-sm mb-5 bg-body" style="width: 20rem;">
                 <img class="card-img-top" src={{recipe.image}} alt="{{recipe.title}}">
                 <div class="card-body">
                     <h5 class="card-title">{{recipe.title}}</h5>

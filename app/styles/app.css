@@ -50,6 +50,20 @@ body{
 
 .card {
     transition: 300ms ease-in-out;
+    position: relative;
+}
+
+.card .controls {
+    position: relative;
+    bottom: 0;
+    padding: 0.5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-img-top {
+    max-width: 19.875rem;
+    max-height: 13.25rem;
 }
 
 .card:hover {

@@ -10,17 +10,66 @@
         },
         {
             "id": 2,
-            "title": "Classic, Hearty Beef Stew",
-            "description": "This classic beef stew recipe makes sure you really make the most of each step of the cooking process to end up with a beautiful, rich, and hearty beef stew! ",
-            "image": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F8650757.jpg&q=85",
-            "link": "https://www.allrecipes.com/recipe/281995/classic-hearty-beef-stew/"
+            "title": "Go-To Vanilla Pound Cake",
+            "description": "This pound cake is unbelievably fluffy, tender, and light. It has a toasty brown crust, tight crumb that slices cleanly, and eats a lot like that pound cake nobody doesn’t like",
+            "image": "https://images.food52.com/RJ-ZCLgYRQ4mXT6cDC4hk6oJ3zU=/1008x672/filters:format(webp)/ec2e4b21-ce1c-4c2f-a389-5b475462270f--2020-1201_go-to-vanilla-pound-cake_3x2_james-ransom-027.jpg",
+            "link": "https://food52.com/recipes/84768-best-pound-cake-recipe"
         },
         {
             "id": 3,
-            "title": "Spaghetti Squash Lasagna",
-            "description": "This spaghetti squash lasagna is yummy, good for you, and filling!",
-            "image": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F9413507.jpg&q=85",
-            "link": "https://www.allrecipes.com/recipe/277699/best-spaghetti-squash-lasagna/"
+            "title": "Baked Ziti",
+            "description": "This baked ziti—or penne, or rigatoni, or whatever shape you like—is extra in every single way. There’s sausage and there’s bacon. There’s mozzarella and there’s Parmesan",
+            "image": "https://images.food52.com/xjXYuWmLaH8x-kXV7OeDsSKZqAs=/1008x672/filters:format(webp)/48baeede-776a-45ad-9e81-26f0c4729d92--2019-0110_best-baked-ziti_3x2_ty-mecham.jpg",
+            "link": "https://food52.com/recipes/82374-best-baked-ziti-recipe"
+        },
+        {
+            "id": 4,
+            "title": "Brussel Sprouts Gratin",
+            "description": "Try this Brussels sprouts gratin. Made with blanched sprouts in a rich Gruyere sauce, it’s studded with diced pancetta for an extra bump of flavor. ",
+            "image": "https://www.simplyrecipes.com/thmb/We2WH74GzF3VThsRpQLGGGVuIOk=/648x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2013__11__brussels-sprouts-gratin-vertical-a-1200-25c9198257ba45eab6d8e51b9c8f73d3.jpg",
+            "link": "https://www.simplyrecipes.com/recipes/brussels_sprouts_gratin/"
+        },
+        {
+            "id": 5,
+            "title": "Baby Back Ribs With Dry Rub",
+            "description": "The hardest part about these ribs is patience. They take just over 2 hours in the oven, which can feel challenging when you walk through the kitchen and—oh, they smell so good.",
+            "image": "https://images.food52.com/oknPflNyjvUElBEicG_-M-T2PH0=/1008x672/filters:format(webp)/1db4a60f-8e55-4b10-a143-0b3108de6b22--2019-0514_baby-back-ribs-dry-rub_3x2_rocky-luten_022.jpg",
+            "link": "https://food52.com/recipes/81511-baby-back-ribs-with-dry-rub-recipe"
+        },
+        {
+            "id": 6,
+            "title": "Chicken Pot Pie",
+            "description": "This cold-weather staple is the ultimate nostalgic comfort food.",
+            "image": "https://images.food52.com/F-6B5i1s3YEZqKPtotqxlTVOdzY=/380x254/filters:format(webp)/64288f5d-c68a-4af0-ba5a-9e05382a0955--2019-0910_chicken-pot-pie_3x2_ty-mecham_001.jpg",
+            "link": "https://food52.com/recipes/81853-best-chicken-pot-pie-recipe"
+        },
+        {
+            "id": 7,
+            "title": "Barbara Kafka's Simplest Roast Chicken",
+            "description": "Barbara Kafka's basic formula for roasting chickens in the high-heat method is about ten minutes to the pound for a chicken at room temperature, untrussed",
+            "image": "https://images.food52.com/n4hx0_pkVrrJWEY4RFcRcglmQBo=/1008x672/filters:format(webp)/6851a19b-2577-4f3d-ba4e-4de34466573a--2014-0517_genius_roast-chicken_james-ransom_041.jpg",
+            "link": "https://food52.com/recipes/17568-barbara-kafka-s-simplest-roast-chicken"
+        },
+        {
+            "id": 8,
+            "title": "Easy Meatloaf",
+            "description": "This all-beef meatloaf has very few ingredients and a whole lot of tricks up its sleeve",
+            "image": "https://images.food52.com/huGX5qcMPFcJrZLh0J4mfCjgzys=/1008x672/filters:format(webp)/bef25e13-71f6-4c9a-a5c0-18476e21f3b0--2019-0208_simplest-meatloaf_3x2_bobbi-lin_15477.jpg",
+            "link": "https://food52.com/recipes/80635-easy-meatloaf"
+        },
+        {
+            "id": 9,
+            "title": "Chocolate Cream Pie",
+            "description": "Chocolate cream pie is one of those desserts that’s implanted in my childhood food memories. Delicious, super light, and irresistible. It’s a commitment, but most of the time is fighting the temptation to dig in until the pie is ready.",
+            "image": "https://images.food52.com/1WIFYmWjXogXdNqfojJ424sfLV4=/1008x672/filters:format(webp)/7f7e9375-08e5-40a5-bb2a-db7607111fc3--2020-1006_chocolate-cream-pie_3x2_julia-gartland_090.jpg",
+            "link": "https://food52.com/recipes/84540-best-chocolate-cream-pie-recipe"
+        },
+        {
+            "id": 10,
+            "title": "Fully Loaded Baked Potatoes With Mushroom 'Bacon' & Garlicky Greek Yogurt ",
+            "description": "This formula works on regular old white potatoes, and sweeter varieties alike—my favorite version of the latter is with Murasaki sweet potatoes.",
+            "image": "https://images.food52.com/gt9k5_1fVdn4WUF0qyexWldN0Po=/1008x672/filters:format(webp)/8df2ea62-683c-458b-b0f2-befdbd2dd31b--close_2019-0115_fully-loaded-savory-baked-potatoes_3x2_ty-mecham_001.png",
+            "link": "https://food52.com/recipes/78708-fully-loaded-baked-potatoes-with-mushroom-bacon-garlicky-greek-yogurt"
         }
     ]
 

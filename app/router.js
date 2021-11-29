@@ -10,5 +10,6 @@ Router.map(function () {
   this.route('about');
   this.route('recipes', function () {
     this.route('new');
+    this.route('edit', {path: '/edit/:recipe_id'});
   });
 });

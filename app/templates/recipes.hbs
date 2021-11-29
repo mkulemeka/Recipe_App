@@ -7,12 +7,16 @@
         </div>
         <div class="recipe_cards container-fluid marg">
             {{#each @model as |recipe|}}
-                <div class="card shadow-sm" style="width: 18rem;">
+                <div class="card shadow-sm mb-5" style="width: 18rem;">
                     <img class="card-img-top" src={{recipe.image}} alt="{{recipe.title}}">
                     <div class="card-body">
                         <h5 class="card-title">{{recipe.title}}</h5>
                         <p class="card-text">{{recipe.description}}</p>
-                        <p class="card-text">{{recipe.created}}</p>
+                        <p class="card-text">{{recipe.created}}</p> 
+                    </div>
+                    <div class="controls">
+                        <button class='btn border border-success' type="button">{{#link-to 'recipes.edit' recipe.id}}Edit{{/link-to}}</button>
+                        <button class='btn btn-danger mx-3' {{action 'deleteRecipe' recipe.id}}>Delete</button>
                     </div>
                 </div>
             {{/each}}

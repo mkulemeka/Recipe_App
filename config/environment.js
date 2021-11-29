@@ -6,6 +6,15 @@ module.exports = function (environment) {
     environment,
     rootURL: '/',
     locationType: 'auto',
+    contentSecurityPolicy: {'connect-src': "'self' https://firebase.com wss://*.firebaseio.com"},
+    firebase: {
+      apiKey: "AIzaSyDGKrGPQYBkRtxFjoaCoFVs5-WWMpLzaJI",
+      authDomain: "recipe-emberjs.firebaseapp.com",
+      databaseURL: "https://recipe-emberjs-default-rtdb.firebaseio.com",
+      projectId: "recipe-emberjs",
+      storageBucket: "recipe-emberjs.appspot.com",
+      messagingSenderId: "989957178133"
+    },
     EmberENV: {
       FEATURES: {
         // Here you can enable experimental features on an ember canary build
